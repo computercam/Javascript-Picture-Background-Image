@@ -71,14 +71,14 @@ function setPictureBgEl(pictureEl) {
     })
     .join('')
 
-  const pictureBgClass = 'tcom-picture-backgrounds'
+  const pictureBgClass = 'fluid-picture-backgrounds'
   const pictureBgMarkup = `<div class="${pictureBgClass}">${pictureBg}</div>`;
   
   pictureEl.insertAdjacentHTML('afterbegin', pictureBgMarkup);
 }
 
 function getPictureBgEl(pictureEl) {
-  const pictureBgEl = pictureEl.querySelector('.tcom-picture-backgrounds');
+  const pictureBgEl = pictureEl.querySelector('.fluid-picture-backgrounds');
   return pictureBgEl
 }
 
