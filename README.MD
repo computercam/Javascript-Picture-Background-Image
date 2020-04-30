@@ -4,4 +4,4 @@ Its also lazy in that it will only load the picture for the current active break
 
 This is useful for situations where you want to do art direction with different images at different breakpoints but also need the images to cover a certain area of the page.
 
-Caveats: All `media` attributes in the provided picture's source elements must be in `"min-width"` format. `Max width`, `min-height`,  and `max-height` are currently not supported.
+Caveats: All `media` attributes in the provided picture's source elements must be in `min-width` format. `max-width`, `min-height`,  and `max-height` are currently not supported.
